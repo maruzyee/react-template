@@ -1,0 +1,26 @@
+//コメントアウトはいずれ有効にすべき
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "lib": ["es2021", "dom"],
+    "module": "esnext",
+    "sourceMap": true,
+    "jsx": "react",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    //"importsNotUsedAsValues": "error",
+    //"noUnusedLocals": true,
+    //"noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["dist", "node_modules"],
+  "compileOnSave": false
+}
